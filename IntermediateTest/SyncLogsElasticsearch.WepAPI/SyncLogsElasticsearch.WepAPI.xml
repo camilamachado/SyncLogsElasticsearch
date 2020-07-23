@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SyncLogsElasticsearch.WepAPI</name>
+    </assembly>
+    <members>
+        <member name="M:SyncLogsElasticsearch.WepAPI.Controllers.LogTestsController.TestAllLevels">
+            <summary>
+            Este endpoint cria um log de cada nível
+            </summary> 
+        </member>
+    </members>
+</doc>

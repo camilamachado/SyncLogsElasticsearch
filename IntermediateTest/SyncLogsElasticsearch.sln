@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SyncLogsElasticsearch.WepAPI", "SyncLogsElasticsearch.WepAPI\SyncLogsElasticsearch.WepAPI.csproj", "{6CC50DBE-275B-44D4-9469-11F1DBAB6826}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyncLogsElasticsearch.Application", "SyncLogsElasticsearch.Application\SyncLogsElasticsearch.Application.csproj", "{6ABB9299-480E-4932-B0C1-3BA704D1FDF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyncLogsElasticsearch.Infra", "SyncLogsElasticsearch.Infra\SyncLogsElasticsearch.Infra.csproj", "{BEDB7AB5-1F2F-4411-97CC-CAEF263FA16A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyncLogsElasticsearch.Domain", "SyncLogsElasticsearch.Domain\SyncLogsElasticsearch.Domain.csproj", "{840E1BCD-E281-404C-ADA0-E5EF1C89B15A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyncLogsElasticsearch.Infra.Data", "SyncLogsElasticsearch.Infra.Data\SyncLogsElasticsearch.Infra.Data.csproj", "{4860AB83-2CFF-4A6C-BCD6-339201485610}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CC50DBE-275B-44D4-9469-11F1DBAB6826}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CC50DBE-275B-44D4-9469-11F1DBAB6826}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CC50DBE-275B-44D4-9469-11F1DBAB6826}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CC50DBE-275B-44D4-9469-11F1DBAB6826}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ABB9299-480E-4932-B0C1-3BA704D1FDF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ABB9299-480E-4932-B0C1-3BA704D1FDF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ABB9299-480E-4932-B0C1-3BA704D1FDF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ABB9299-480E-4932-B0C1-3BA704D1FDF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEDB7AB5-1F2F-4411-97CC-CAEF263FA16A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEDB7AB5-1F2F-4411-97CC-CAEF263FA16A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEDB7AB5-1F2F-4411-97CC-CAEF263FA16A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEDB7AB5-1F2F-4411-97CC-CAEF263FA16A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{840E1BCD-E281-404C-ADA0-E5EF1C89B15A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{840E1BCD-E281-404C-ADA0-E5EF1C89B15A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{840E1BCD-E281-404C-ADA0-E5EF1C89B15A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{840E1BCD-E281-404C-ADA0-E5EF1C89B15A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4860AB83-2CFF-4A6C-BCD6-339201485610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4860AB83-2CFF-4A6C-BCD6-339201485610}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4860AB83-2CFF-4A6C-BCD6-339201485610}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4860AB83-2CFF-4A6C-BCD6-339201485610}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9311B0B3-FCA6-4432-AE4B-FF85B70BA492}
+	EndGlobalSection
+EndGlobal

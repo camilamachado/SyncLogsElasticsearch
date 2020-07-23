@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="8.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="3.1.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SyncLogsElasticsearch.Domain\SyncLogsElasticsearch.Domain.csproj" />
+    <ProjectReference Include="..\SyncLogsElasticsearch.Infra\SyncLogsElasticsearch.Infra.csproj" />
+  </ItemGroup>
+
+</Project>
